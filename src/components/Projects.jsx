@@ -5,28 +5,41 @@ import reg from './assets/reg.png';
 
 
 const Projects = () => {
-  const projects = [
+ const projects = [
+  {
+    id: 1,
+     title: "Hope Foundation – NGO Website",
+    description:
+      "Designed and developed a static NGO website using HTML and CSS to learn frontend structure and UI/UX principles. Implemented clean layouts, navigation, and card-based sections with a focus on usability and visual consistency.",
+    image: ngo,
+    codeLink: "https://github.com/SayyadArshad/ngo-website",
+  
+  },
+  {
+    id: 2,
+    title: "User Management API Automation Testing",
+    description:
+      "Automated REST API testing for a mock User Management system using Java, TestNG, Maven, and Rest Assured. Validated CRUD operations (GET, POST, PUT, DELETE) with structured and maintainable test suites.",
+    image: user,
+    codeLink: "https://github.com/SayyadArshad/UserManagement-API-Testing",
+  },
+  {
+    id: 3,
+     title: "Katalon Demo CURA",
+    description:
+      "Automated end-to-end testing for the CURA Healthcare Service application using Katalon Studio, covering UI and API test scenarios. Developed reusable test cases to validate core functionalities and improve test coverage.",
+    image: cura,
+    codeLink: "https://github.com/SayyadArshad/katalon-demo-cura",
+  },
     {
-      id: 1,
-      title: "Katalon Demo CURA",
-      description: "utomate end-to-end testing for the CURA Healthcare Service application to ensure seamless and bug-free functionality across UI and API layers.",
-      image: cura,
-      codeLink: "https://github.com/SayyadArshad/katalon-demo-cura"
-    },
-    {
-      id: 2,
-      title: "Pmd Regression Tester",
-      description: "A regression testing tool ensure that new problems and unexpected behaviors will not be introduced to PMD project after fixing an issue , and new rules can work as expected.",
-      image: reg,
-      codeLink: "https://github.com/SayyadArshad/pmd-regression-tester"
-    },
-    {
-      id: 3,
-      title: "Gold Gym Website",
-      description: "The Gold Gym Website is a fitness platform showcasing gym facilities, membership plans, workout programs, and trainer details. It includes an intuitive homepage, a blog for fitness tips.",
-      image: gym,
-      codeLink: "https://github.com/SayyadArshad/Golds_Gym_Website"
-    },
+    id: 4,
+     title: "IPL Player Profile API Testing",
+    description:
+      "Implemented API testing with Postman, creating test suites to validate status codes.Performed end-to-end API testing using CRUD operations (GET, POST, PUT, DELETE) on mock API endpoints.",
+    image: ipl,
+    codeLink: "https://www.youtube.com/watch?v=OXVNiJmmEH4&feature=youtu.be",
+  },
+];
 
   ];
 

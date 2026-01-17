@@ -39,7 +39,6 @@ const Projects = () => {
     image: ipl,
     codeLink: "https://www.youtube.com/watch?v=OXVNiJmmEH4&feature=youtu.be",
   },
-];
 
   ];
 

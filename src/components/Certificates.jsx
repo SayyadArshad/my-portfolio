@@ -2,6 +2,13 @@ import React from 'react';
 import { FaExternalLinkAlt } from 'react-icons/fa'; // Using an external link icon
 
 const certificates = [
+ 
+ {
+    title: 'Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate',
+    provider: 'Oracle',
+    date: 'October 2025',
+    link: 'https://drive.google.com/file/d/1MUU1M70w9ixCPsEJEzJmi5siSaHNXxOC/view?usp=sharing', 
+  },
   {
     title: 'Automation Testing Basics',
     provider: 'Simplilearn',

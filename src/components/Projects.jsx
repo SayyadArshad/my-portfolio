@@ -1,7 +1,8 @@
 import React from 'react';
 import cura from './assets/cura.png';
-import gym from './assets/gym.png';
-import reg from './assets/reg.png';
+import ngo from './assets/ngo.png';
+import user from './assets/user.png';
+import ipl from './assets/ipl.png';
 
 
 const Projects = () => {

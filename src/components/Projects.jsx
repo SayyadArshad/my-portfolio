@@ -2,7 +2,7 @@ import React from 'react';
 import cura from './assets/cura.png';
 import ngo from './assets/ngo.png';
 import user from './assets/user.jpeg';
-import ipl from './assets/ipl.png';
+import ipl from './assets/ipl.jpg';
 
 
 const Projects = () => {

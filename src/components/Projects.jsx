@@ -1,7 +1,7 @@
 import React from 'react';
 import cura from './assets/cura.png';
 import ngo from './assets/ngo.png';
-import user from './assets/user.png';
+import user from './assets/user.jpeg';
 import ipl from './assets/ipl.png';
 
 
